@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = +prompt("nhap so")
+    let chuc
+    let dvi
+    let hangtram
+    let tong
+    dvi = x % 10
+    chuc = (x - dvi) / 10 % 10
+    hangtram = (x - chuc * 10 - dvi) / 100
+    tong = chuc + dvi + hangtram
+    alert(tong)
+</script>
+</body>
+</html>
